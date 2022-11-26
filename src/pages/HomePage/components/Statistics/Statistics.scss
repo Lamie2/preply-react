@@ -1,0 +1,46 @@
+.statistics {
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
+  background-color: #3ba0a9;
+  display: flex;
+  .text {
+    margin-right: 10px;
+    margin-left: -25%;
+    margin-top: 50px;
+    .title {
+      font-size: 50px;
+
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    p {
+      font-size: 20px;
+      text-align: center;
+      color: white;
+    }
+    button {
+      width: 510px;
+      height: 68px;
+      color: white;
+      font-size: 24px;
+      text-align: center;
+      background: #f8463d;
+      border-radius: 11px;
+      border: 0px;
+    }
+  }
+
+  img {
+    @media screen and (max-width: 900px) {
+      width: 80%;
+      height: auto;
+    }
+    object-fit: cover;
+
+    width: 60%;
+    height: 393px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}

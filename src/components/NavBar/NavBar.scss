@@ -1,0 +1,28 @@
+.nav-menu {
+  ul {
+    display: flex;
+    position: relative;
+    margin-top: 28px;
+    padding: 0px;
+    color: #5f5d5d;
+    li {
+      list-style: none;
+      margin: 0px 50px;
+    }
+
+    .fa-message {
+      position: absolute;
+      right: 30px;
+      top: -20px;
+      color: #ffb800;
+      font-size: 30px;
+    }
+    p {
+      position: absolute;
+      right: 30px;
+      top: -20px;
+      color: white;
+      font-size: 14px;
+    }
+  }
+}
